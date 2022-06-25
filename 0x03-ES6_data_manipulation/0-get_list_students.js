@@ -1,4 +1,4 @@
-//a function named getListStudents that returns an array of objects
+
 function getListStudents() {
   const students = [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
