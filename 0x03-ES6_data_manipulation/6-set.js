@@ -1,6 +1,4 @@
-//a function named setFromArray that returns a Set from an array
-function setFromArray(array) {
-    const setArray = new Set(array);
-    return setArray;
+// a function named setFromArray that returns a Set from an array
+export default function setFromArray(array) {
+  return (new Set(array));
 }
-export default setFromArray;

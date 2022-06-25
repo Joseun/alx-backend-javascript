@@ -1,15 +1,3 @@
-import { queryAPI, weakMap } from "./100-weak.js";
+import setFromArray from "./6-set.js";
 
-const endpoint = { protocol: 'http', name: 'getUsers' };
-weakMap.get(endpoint);
-
-queryAPI(endpoint);
-console.log(weakMap.get(endpoint));
-
-queryAPI(endpoint);
-console.log(weakMap.get(endpoint));
-
-queryAPI(endpoint);
-queryAPI(endpoint);
-queryAPI(endpoint);
-queryAPI(endpoint);
+console.log(setFromArray([12, 32, 15, 78, 98, 15]));
