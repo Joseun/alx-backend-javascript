@@ -1,12 +1,12 @@
 // modify the variables inside the function taskBlock so that the variables
 // aren’t overwritten inside the conditional block.
 export default function taskBlock(trueOrFalse) {
-    task = false;
-    task2 = true;
+    const task = false;
+    const task2 = true;
   
     if (trueOrFalse) {
-      var task;
-      var task2;
+      var task = true;
+      var task2 = false;
     }
   
     return [task, task2];
